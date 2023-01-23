@@ -1,0 +1,1510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+.container {
+    /* border: 2px solid grey; */
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.top-row {
+    /* border: 6px solid #ff00bb; */
+    display: flex;
+    /* padding: 20px; */
+    position: relative;
+}
+
+.contact-list {
+    /* border: 3px solid green ; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(17, 17, 17, 255);
+    padding: 20px;
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.contactNav {
+    display: flex;
+    gap: 40px;
+
+}
+
+.contactNav li {
+    list-style-type: none;
+}
+
+.contactNav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 500;
+}
+
+#social-icons {
+    /* border: 4px solid blue ; */
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(234, 6, 43, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    z-index: 4;
+    /* overflow-x: hidden; */
+}
+
+#social-icons p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.fa-brands {
+    /* filter: invert(); */
+}
+
+/* .fa-solid{
+    filter: invert();
+} */
+.icon {
+    color: rgba(234, 6, 43, 255);
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.contactNav li a {
+    border-left: 2px solid #ffffff;
+}
+
+#social-icons::after {
+    content: "";
+    position: absolute;
+    left: 368px;
+    top: 0;
+    bottom: 0;
+    width: 550px;
+    background-color: rgba(234, 6, 43, 255);
+}
+
+.contact-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -999px;
+    width: 1000px;
+    background-color: rgba(17, 17, 17, 255);
+}
+
+.top-navigation {
+    overflow-x: hidden;
+}
+
+.navigation {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    /* border: 3px solid green; */
+}
+
+.logo-section {
+    /* border: 8px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.logo-navbar {
+    /* margin: 0 auto; */
+    margin-left: auto;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.logo-navbar ul {
+    display: flex;
+    /* border: 7px solid pink; */
+
+}
+
+.logo-navbar li {
+    list-style-type: none;
+}
+
+.logo-navbar li a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 26px;
+    color: rgba(17, 17, 17, 255);
+    font-weight: 600;
+}
+
+.logo-navbar li a:hover {
+    color: #ea062b;
+}
+
+.navigation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    z-index: -1;
+    background-color: #ea062b;
+}
+
+.banner {
+    background-image: url("images/hero-five.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 70vh; */
+}
+
+.intro a i {
+    filter: invert();
+}
+
+.intro-heading h2 {
+    color: #ea062b;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.intro a {
+    background-color: #ea062b;
+    padding: 20px 25px;
+    border: none;
+    outline: none;
+}
+
+.intro span {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.intro-heading h3 {
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgba(234, 6, 43, 255);
+}
+
+.intro-heading h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgba(17, 17, 17, 255);
+}
+
+.banner-content {
+    /* border: 3px solid rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.explore-now a {
+    text-decoration: none;
+    background-color: rgba(234, 6, 43, 255);
+    color: #ffffff;
+    padding: 15px 45px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.explore-now a:hover {
+    background: linear-gradient(90deg, #ea062b, #111111);
+    transition: 0.5s ease-in all;
+}
+.services-content a:hover{
+    background-color: #111111;
+    color: #ffffff;
+    transition: 0.4s ease-in all;
+}
+.register-wrapper {
+    /* border: 3px solid red; */
+    display: flex;
+    position: relative;
+    top: -104px;
+}
+
+.register-icon a i:hover {
+    font-size: 35px;
+}
+
+.donate-now {
+    color: #ffffff;
+}
+
+
+.register-box {
+    display: flex;
+    align-items: center;
+    padding: 20px 70px;
+    gap: 50px;
+}
+
+.register-first {
+    background-color: #111111;
+}
+
+.register-first:hover {
+    background-color: #ea062b;
+    transition: 0.5s ease-in all;
+}
+
+.register-second {
+    background-color: rgba(234, 6, 43, 255);
+}
+
+.register-second:hover {
+    background-color: #111111;
+    transition: 0.5s ease-in all;
+}
+
+.register-content a {
+    text-decoration: none;
+    font-size: 50px;
+    color: #ffffff;
+    /* font-weight: bolder; */
+    font-weight: 600;
+}
+
+.register-content p {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.overview-section {
+    background-color: rgba(245, 245, 245, 255);
+}
+
+.overview-boxes {
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: center;
+}
+
+.poster img:hover {
+    opacity: 0.7;
+    transition: 0.5s ease-out all;
+}
+
+.box {
+    padding: 40px 20px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 3px solid blue; */
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 255);
+}
+
+.icon-box {
+    width: 90px;
+    height: 90px;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+}
+
+.icon-box:hover {
+    background-color: #ea062b;
+    transition: 0.3s ease-in-out all;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box a {
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bolder;
+}
+
+.box a:hover {
+    background-color: #ea062b;
+    transition: 0.5s ease all;
+}
+
+.box-heading h4 {
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+.box-heading h4:hover {
+    font-size: 29px;
+    color: #ea062b;
+}
+
+.welcome-wrapper {
+    display: flex;
+    /* border: 3px solid pink;    */
+    margin-top: 80px;
+    gap: 65px;
+    margin-bottom: 60px;
+}
+
+.welcome-content h6 {
+    font-size: 20px;
+    color: #ea062b;
+    font-weight: bolder;
+}
+
+.welcome-content h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.welcome-content {
+    max-width: 570px;
+}
+
+.welcome-points {
+    display: flex;
+}
+
+.welcome-points a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 21px;
+    /* font-weight: bolder; */
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+/* .fa-angle-right{
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: black;
+} */
+.welcome-points span {
+    font-size: 30px;
+    color: #ea062b;
+    font-weight: bolder;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.welcome-content li {
+    list-style-type: none;
+}
+
+.second-list {
+    margin-left: 250px;
+}
+
+.achievement-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/counter-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+
+}
+
+.achievement-wrapper {
+    display: flex;
+    /* padding: 30px 60px; */
+}
+
+.achieve-content {
+    padding: 90px 130px;
+    width: calc(100%/4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .overlay::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+} */
+
+.heading h2 {
+    font-size: 55px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.heading p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.achieve-content {
+    /* border: 3px solid red; */
+}
+
+.achievement-wrapper .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/4);
+}
+
+.service-wrapper {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+}
+
+.services-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .second-readmore {
+    margin-left: auto;
+} */
+
+.service-content-left a {
+    margin-left: auto;
+}
+
+.service-boxes {
+    display: flex;
+    column-gap: 25px;
+    padding-top: 30px;
+}
+
+.services-image img {
+    width: 633px;
+    height: 480px;
+}
+
+.services-heading h5 {
+    color: #ea062b;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.services-heading h2{
+    font-size: 45px ;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 90px;
+    /* border: 3px solid yellow; */
+}
+
+.services-content h3 {
+    color: rgba(220, 220, 220, 255);
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.services-content h4 {
+    color: #111111;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.services-content a {
+    text-decoration: none;
+    /* background-color: #ea062b; */
+    /* color: #ffffff; */
+    display: inline;
+    background-color: #ea062b;
+    color: #ffffff;
+    width: 30%;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bolder;
+}
+
+.text-align-left {
+    text-align: right;
+}
+
+.service-content-left {
+    text-align: right;
+}
+
+.call-now-section {
+    background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.8)), url("./images/call-now-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fa-envelope {
+    color: #ffffff;
+    padding-right: 8px;
+}
+
+.fa-location-dot {
+    color: #ffffff;
+    padding-right: 8px;
+}
+
+.fa-solid {
+    color: #ffffff;
+}
+
+.fa-play {
+    filter: invert();
+}
+
+.call-now-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px;
+    border: 10px solid #ea062b;
+}
+
+.call-now-content h2 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+.call-now-content h4 {
+    color: #ffffff;
+    font-weight: bolder;
+
+}
+
+.call-now-address a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.call-now-section {
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+    padding: 110px;
+    margin-top: 30px;
+}
+
+.icon-box-wrapper .icon-box {
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    margin: 0px auto;
+    position: relative;
+    top: -106px;
+    margin-bottom: -82px;
+    transform: rotate(45deg);
+    /* filter: invert(); */
+    background-color: #ea062b;
+    box-shadow: 0px 9px 52px 0px rgb(0 0 0 / 7%);
+    /* transition: all 0.3s ease-out;*/
+}
+
+.icon-box-wrapper .icon-box:hover {
+    background-color: #f5f5f5;
+    color: #111111;
+    transform: rotate(0deg);
+    transition: 0.5s ease all;
+}
+
+.fa-phone {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.campaign-heading h4,
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.campaign-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campaign-heading h2 {
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.campaign-heading h4 {
+    color: #ea062b;
+    font-size: 23px;
+}
+
+.campaign-read-more img {
+    width: 500px;
+    height: 300px;
+}
+
+.campaign-boxes {
+    display: flex;
+    column-gap: 30px;
+}
+
+.campaign-read-more {
+    display: flex;
+
+}
+
+.campaign-bottom {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+}
+
+.campaign-content {
+    /* border: 3px solid red; */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 10px; */
+    padding: 10px;
+}
+
+.campaign-bottom p i {
+    color: #ea062b;
+    font-size: 15px;
+}
+.campaign-content p{
+    font-size: 16px;
+}
+
+.campaign-content h3 {
+    color: #ea062b;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.campaign-content h6{
+    font-size: 14px;
+}
+
+.campaign-section {
+    background-color: rgba(245, 245, 245, 255);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.fa-calendar-days {
+    color: #ea062b;
+}
+
+.client-boxes {
+    display: flex;
+}
+
+.stars i {
+    color: #ffc92e;
+}
+
+.stars {
+    display: flex;
+}
+
+.client-content {
+    border: 1px solid white;
+}
+
+.client-heading h2 {
+    color: #111111;
+    font-weight: bolder
+}
+
+.client-heading h5 {
+    color: #ea062b;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.client-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.client-boxes {
+    padding-top: 25px 10px;
+
+}
+
+.client-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.client-content {
+    padding: 50px 25px;
+    box-shadow: 0px 9px 20px 0px rgb(0 0 0 / 13%);
+}
+
+.client-heading h2 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.client-names-wrapper {
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.client-names-content {
+    display: flex;
+    column-gap: 20px;
+}
+
+.blood-donor-button button {
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.blood-donor-button button i {
+    font-size: 30px;
+    /* filter: invert(); */
+    cursor: pointer;
+}
+
+.blood-donor-list-content {
+    margin-right: 20px;
+    box-shadow: 0px 0px 2px 15pz;
+}
+
+.blood-donor-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./images/blood-donor-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.blood-donor-content {
+    padding-top: 220px;
+    padding-bottom: 220px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blood-donor-content h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.blood-donor-content h4 {
+    color: #ea062b;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.blood-donor-list-wrapper {
+    display: flex;
+}
+
+.blood-donor-list-content {
+    padding: 60px 30px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 90px;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.blood-donor-list-content {
+    /* border: 3px solid red; */
+    box-shadow: 0px 9px 52px 0px rgb(0 0 0 / 13%);
+
+}
+
+.current-blood-request ul li {
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.fa-heart {
+    color: #ea062b;
+
+}
+
+.current-blood-request ul li i {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.current-blood-request ul li {
+    border-bottom: 0.5px solid grey;
+}
+
+.current-blood-request ul li:last-child {
+    border: 0;
+}
+
+.request-appointment .input {
+    padding-bottom: 25px;
+    color: #f5f5f5;
+
+}
+
+.request-appointment .input input,
+textarea {
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 20px 30px;
+}
+
+.submit-button {
+    background-color: #ea062b;
+    padding: 5px 40px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bolder;
+    border: none;
+}
+
+.donation select {
+    /* width: 93%;  */
+    padding: 0 15px;
+    background-color: #f5f5f5;
+}
+
+.input-email input {
+    width: 100%;
+}
+
+.input-column input {
+    width: 49%;
+}
+
+.input textarea {
+    width: 100%;
+}
+
+.donation select {
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+.blood-donor-lists h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.current-blood-request li {
+    font-size: 25px;
+    /* font-weight: 600; */
+}
+
+select,
+textarea,
+input::placeholder {
+    font-size: 20px;
+}
+
+.volunteers-boxes img {
+    width: 380px;
+    height: 400px;
+}
+
+.volunteers-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteers-heading h4 {
+    font-size: 22px;
+    color: #ea062b;
+}
+
+.volunteers-heading h2 {
+    font-size: 55px;
+    color: #111111;
+}
+
+.volunteers-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.volunteers-names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteers-content {
+    box-shadow: 0px 9px 20px 0px rgb(0 0 0 / 13%);
+    background-color: white;
+    padding: 20px 15px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    top: -44%;
+    right: -136px;
+}
+
+.social a {
+    background-color: #ffffff;
+    color: red;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+
+.social {
+    display: none;
+}
+
+.volunteers-content:hover .social {
+    display: block;
+}
+
+.volunteers-section {
+    padding-bottom: 100px;
+}
+
+.news-section-wrapper {
+    display: flex;
+    /* border: 4px solid red; */
+    gap: 25px;
+}
+
+.news-section-box {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid blue; */
+    gap: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 52px 0px rgb(0 0 0 / 15%);
+}
+
+.news-images img {
+    width: 417px;
+    height: 311px;
+}
+
+.date-section i {
+    color: #ea062b;
+    padding-right: 7px;
+}
+
+.date-section {
+    display: flex;
+    gap: 10px;
+}
+
+.news-section-content h5 {
+    font-size: 30px;
+}
+
+.date-section p {
+    font-size: 20px;
+    color: #ea062b;
+}
+
+.news-section-content p {
+    font-size: 20px;
+}
+
+.news-section-content {
+    padding: 10px 15px;
+}
+
+.news-readmore {
+    padding: 10px 15px;
+}
+
+.news-readmore a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #111111;
+}
+
+.news-readmore span {
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.news-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-section {
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.news-heading h5 {
+    font-size: 25px;
+    color: #ea062b;
+}
+
+.news-heading h2 {
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.join-us-section {
+    background-color: #ea062b;
+}
+
+.join-us-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.join-us-text {
+    width: 75%;
+}
+
+.join-us-text h2 {
+    color: #ffffff;
+    font-size: 55px;
+}
+
+.join-us-text p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.join-us-button a {
+    text-decoration: none;
+    color: #111111;
+    background-color: #ffffff;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-section {
+    background-color: #111111;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.footer-section-wrapper {
+    display: flex;
+}
+
+.footer-content {
+    width: calc(100%);
+}
+
+.footer-news {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.footer-list li {
+    list-style-type: none;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.footer-content h4 {
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+
+.footer-content-text p {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.footer-content-text strong {
+    color: #ffffff;
+}
+
+.footer-content-text a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.footer-news h5 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer-news p {
+    color: #ea062b;
+    font-weight: 600;
+}
+
+
+
+/* ------media queries---------- */
+
+@media screen and (max-width:1288px) {
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1228px) {
+    .volunteers-last-content {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1176px) {
+    .contactNav li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1330px) {
+    .news-section-wrapper {
+        flex-direction: column;
+    }
+
+    .news-images img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    /* .contactNav li a{
+        font-size: 16px;
+    }
+    .logo-navbar li a{
+        font-size: 22px;
+    } */
+    .call-now-content h2 {
+        font-size: 50px;
+    }
+
+    .overview-boxes {
+        flex-direction: column;
+    }
+
+    .welcome-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .contactNav li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contactNav li a {
+        font-size: 15px;
+    }
+    .achieve-content{
+        padding: 40px 130px;
+    }
+    .register-wrapper {
+        flex-direction: column;
+        gap: 25px;
+        margin: 10px;
+    }
+
+    .blood-donor-list-wrapper {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .service-boxes {
+        flex-direction: column;
+    }
+
+    .services-image img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .services-content {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .services-second-box {
+        flex-direction: column-reverse;
+    }
+
+    .campaign-boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .call-now-content h2 {
+        font-size: 45px;
+    }
+
+    .join-us-text h2 {
+        font-size: 48px;
+    }
+
+    .join-us-text p {
+        font-size: 21px;
+    }
+
+    .join-us-wrapper {
+        padding: 25px;
+    }
+
+    .services-content {
+        width: 100%;
+    }
+
+    .achieve-content h2 {
+        font-size: 42px;
+    }
+
+    .achieve-content p {
+        font-size: 20px;
+    }
+
+    .second-readmore {
+        margin: 0 auto;
+    }
+
+    .service-content-left {
+        text-align: left;
+    }
+
+    .footer-section {
+        padding: 32px;
+    }
+
+    .logo-navbar li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .achievement-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .achieve-content {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .volunteers-content {
+        margin: 0 auto;
+    }
+
+    .volunteers-boxes {
+        gap: 20px;
+    }
+
+    /* .call-now-content h2{
+        font-size: 33px;
+    } */
+    .blood-donor-content h2 {
+        font-size: 52px;
+    }
+
+    .logo-navbar li a {
+        font-size: 18px;
+    }
+
+    .call-now-content h2 {
+        font-size: 32px;
+    }
+
+    .footer-section-wrapper {
+        flex-direction: column;
+    }
+    .top-row{
+        flex-direction: column;
+    }
+    .contact-list{
+        width: 100%;
+    }
+    #social-icons::after {
+        left: 691px;
+        width: 493px;
+    }
+    #social-icons{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:767px) {
+    .blood-donor-content {
+        padding-top: 106px;
+        padding-bottom: 106px;
+    }
+    .contactNav{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .blood-donor-content h2 {
+        font-size: 41px;
+    }
+
+    .campaign-heading h2 {
+        font-size: 55px;
+    }
+
+    .join-us-text h2 {
+        font-size: 40px;
+    }
+
+    .join-us-text p {
+        font-size: 15px;
+    }
+
+    .join-us-wrapper {
+        flex-direction: column;
+    }
+
+    .join-us-button a {
+        padding: 6px 16px;
+        font-size: 18px;
+    }
+
+    .news-heading h2 {
+        font-size: 42px;
+    }
+
+    .blood-donor-lists h2 {
+        font-size: 35px;
+    }
+    .call-now-section {
+        padding: 29px;
+        margin-top: 30px;
+    }
+    .call-now-content h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 700px){
+    .logo-section{
+        padding: 4px;
+    }
+}
+@media screen and (max-width: 567px) {
+  .achieve-content{
+    margin: 0 auto;
+  }
+  .current-blood-request li {
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+.blood-donor-lists h2 {
+    font-size: 23px;
+}
+.blood-donor-content h2 {
+    font-size: 28px;
+}
+.client-heading h2 {
+    font-size: 37px;
+    font-weight: bolder;
+}
+.join-us-wrapper{
+    gap: 20px;
+}
+.volunteers-heading h2 {
+    font-size: 48px;
+}
+.campaign-heading h2 {
+    font-size: 40px;
+}
+}
